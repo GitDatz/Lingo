@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lingo</string>
+    <string name="enter_guess">Enter Guess</string>
+    <string name="send_guess">Send Guess</string>
 </resources>

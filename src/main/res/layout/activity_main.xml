@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vdthai.lingo.MainActivity">
+    tools:context="com.vdthai.lingo.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <GridLayout
         android:id="@+id/gridLayout"
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:columnCount="5"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -289,11 +291,11 @@
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="6dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/guess_cell_1"
@@ -303,7 +305,7 @@
             android:background="@drawable/cell_guess_left"
             android:textAlignment="center"
             android:textSize="@dimen/text_size_guess"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/guess_cell_2"
@@ -313,7 +315,7 @@
             android:background="@drawable/cell_guess_middle"
             android:textAlignment="center"
             android:textSize="@dimen/text_size_guess"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/guess_cell_3"
@@ -323,7 +325,7 @@
             android:background="@drawable/cell_guess_middle"
             android:textAlignment="center"
             android:textSize="@dimen/text_size_guess"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/guess_cell_4"
@@ -333,7 +335,7 @@
             android:background="@drawable/cell_guess_middle"
             android:textAlignment="center"
             android:textSize="@dimen/text_size_guess"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/guess_cell_5"
@@ -343,17 +345,32 @@
             android:background="@drawable/cell_guess_right"
             android:textAlignment="center"
             android:textSize="@dimen/text_size_guess"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
-    <android.gesture.GestureOverlayView
-        android:id="@+id/gestureLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gestureColor="@android:color/holo_green_light"
-        android:gestureStrokeType="multiple"
-        android:gestureStrokeAngleThreshold="2"
-        android:gestureStrokeLengthThreshold="2">
-    </android.gesture.GestureOverlayView>
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/enterGuessButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_size"
+            android:layout_weight="1"
+            android:text="@string/enter_guess"/>
+
+        <Button
+            android:id="@+id/sendGuessButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_size"
+            android:layout_weight="1"
+            android:text="@string/send_guess"/>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
