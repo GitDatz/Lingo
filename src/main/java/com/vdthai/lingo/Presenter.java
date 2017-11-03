@@ -1,5 +1,7 @@
 package com.vdthai.lingo;
 
+import java.util.ArrayList;
+
 /**
  * Created by vdthai on 2017-10-25.
  */
@@ -13,7 +15,11 @@ class Presenter {
         lingoGuess = new LingoGuess();
     }
 
-    int updateGuess(String letter){
-        return lingoGuess.updateAndGetPos(letter);
+    String initGame(){
+        return lingoGuess.initGame();
+    }
+
+    ArrayList<Integer> guessResult(String guess){
+        return lingoGuess.guessAlgorithm(guess);
     }
 }
