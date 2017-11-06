@@ -29,7 +29,6 @@ class LingoGuess {
      */
     ArrayList<Integer> guessAlgorithm(String guess){
         ArrayList<Integer> guessResult = new ArrayList<>();
-        theGuess = guess;
 
         for(int i = 0; i < guess.length(); i++){
             if(guess.charAt(i) == theWord.charAt(i)){
