@@ -12,7 +12,7 @@ class LingoGuess {
 
     LingoGuess(){
         round = 1;
-        theWord = "HOLLOW";
+        theWord = "HALLO";
     }
 
     String initGame(){

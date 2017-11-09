@@ -36,7 +36,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_top_left"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -45,7 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_top_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -54,7 +54,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_top_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -63,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_top_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -72,7 +72,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_top_right"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
         </LinearLayout>
@@ -89,7 +89,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_left"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -98,7 +98,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -107,7 +107,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -116,7 +116,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -125,7 +125,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_right"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
         </LinearLayout>
@@ -142,7 +142,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_left"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -151,7 +151,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -160,7 +160,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -169,7 +169,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -178,7 +178,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_right"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
         </LinearLayout>
@@ -195,7 +195,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_left"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -204,7 +204,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -213,7 +213,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -222,7 +222,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -231,7 +231,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_middle_right"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
         </LinearLayout>
@@ -249,7 +249,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_bottom_left"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -258,7 +258,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_bottom_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -267,7 +267,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_bottom_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -276,7 +276,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_bottom_middle"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
 
@@ -285,7 +285,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
-                android:background="@drawable/cell_bottom_right"
+                android:background="@drawable/cell"
                 android:cursorVisible="false"
                 android:gravity="center" />
         </LinearLayout>

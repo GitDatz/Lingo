@@ -4,8 +4,9 @@ import android.content.Context;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View view) {
                 EditText guessText = findViewById(R.id.guess_text);
                 final String guess = guessText.getText().toString();
-                ArrayList<Integer> result = presenter.guessResult(guess);   // Display based on result
+                final ArrayList<Integer> result = presenter.guessResult(guess);   // Display based on result
                 final Handler handler = new Handler();
                 handler.post(new Runnable() {
                     private int count = 0;
@@ -50,10 +51,22 @@ public class MainActivity extends AppCompatActivity{
                     public void run() {
                         if(count < 5) {
                             EditText boardCell = findViewById(GAME_BOARD[count]);
-                            if (boardCell.getText().length() > 0) {
+                            if(boardCell.getText().length() > 0) {
                                 boardCell.setText("");
                             }
-                            boardCell.setText(String.valueOf(guess.charAt(count)));
+                            // Start animation
+                            final Animation in = new AlphaAnimation(0.0f, 1.0f);
+                            in.setDuration(1000);
+                            boardCell.startAnimation(in);
+                            if(result.get(count) == 0){
+                                boardCell.setBackgroundResource(R.drawable.cell_circle);
+                                boardCell.setText(String.valueOf(guess.charAt(count)));
+                            } else if(result.get(count) > 0){
+                                boardCell.setBackgroundResource(R.drawable.cell_correct);
+                                boardCell.setText(String.valueOf(guess.charAt(count)));
+                            } else {
+                                boardCell.setText(String.valueOf(guess.charAt(count)));
+                            }
                             handler.postDelayed(this, 1000);
                         } else {
                             handler.removeCallbacks(this);
