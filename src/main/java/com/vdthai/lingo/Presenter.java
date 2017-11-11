@@ -19,6 +19,14 @@ class Presenter {
         return lingoGuess.initGame();
     }
 
+    int getRound(){
+        return lingoGuess.getRound();
+    }
+
+    String getFirstLetter(){
+        return lingoGuess.getFirstLetter();
+    }
+
     ArrayList<Integer> guessResult(String guess){
         return lingoGuess.guessAlgorithm(guess);
     }

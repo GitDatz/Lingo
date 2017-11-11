@@ -31,49 +31,67 @@
             android:layout_marginTop="@dimen/layout_padding"
             android:orientation="horizontal">
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_11"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_12"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_13"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_14"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_15"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
         </LinearLayout>
 
@@ -84,49 +102,72 @@
             android:layout_marginRight="@dimen/layout_padding"
             android:orientation="horizontal">
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_21"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_22"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_23"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_24"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_25"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
         </LinearLayout>
 
@@ -137,49 +178,72 @@
             android:layout_marginRight="@dimen/layout_padding"
             android:orientation="horizontal">
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_31"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_32"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_33"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_34"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_35"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
         </LinearLayout>
 
@@ -190,49 +254,72 @@
             android:layout_marginRight="@dimen/layout_padding"
             android:orientation="horizontal">
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_41"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_42"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_43"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_44"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_45"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginBottom="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
         </LinearLayout>
 
@@ -244,49 +331,67 @@
             android:layout_marginRight="@dimen/layout_padding"
             android:orientation="horizontal">
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_51"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_52"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_53"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_54"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:layout_marginRight="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
 
-            <EditText
+            <TextView
                 android:id="@+id/cell_55"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/cell_height"
                 android:layout_weight="1"
                 android:background="@drawable/cell"
-                android:cursorVisible="false"
+                android:layout_marginTop="@dimen/cell_margin"
+                android:layout_marginLeft="@dimen/cell_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_board"
                 android:gravity="center" />
         </LinearLayout>
 

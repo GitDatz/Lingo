@@ -21,6 +21,14 @@ class LingoGuess {
         return theWord.substring(0, 1);
     }
 
+    String getFirstLetter(){
+        return theWord.substring(0, 1);
+    }
+
+    int getRound(){
+        return round;
+    }
+
     /**
      * Function that returns pair of Integer and String, where:
      * Integer = -1 if not correct, 0 if misplaced and 1 if in correct position.
@@ -39,6 +47,7 @@ class LingoGuess {
                 guessResult.add(-1);
             }
         }
+        round++;
         return guessResult;
     }
 }
